@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="ProductsPage.css">
+    <script src="Products.js" async></script>
+    <title>Shop Our Products</title>
+
+</head>
+
+
+<body>
+
+    <div class="delivery-bar">
+        <div> FREE 2-DAY SHIPPING FOR ORDERS OF $50 OR MORE, AND FREE RETURN SHIPPING </div>
+   </div>
+
+   <ul id= "nav" >
+    <li><a href="#index2.html">HOME</a></li>
+    <li><a href="ProductsPage.html">PRODUCTS</a></li>
+    <li><a href="#PreQuiz.html">QUIZ</a></li>
+    <li><a href="#sitemap">SITEMAP</a></li>
+    <li><a href="#query">QUERY</a></li>
+    <li><a href="#MemberPage.html">STUDENT DETAILS</a></li>
+    <li><a href="#gallery">GALLERY</a></li>
+    <li><a href = "ContentPage.html">FACTS</a></li>
+</ul>
+
+
+
+    <div class="header">
+        <img src="Logo/cover.jpg" alt="cover image">
+            <div class="header-text">
+                <h1>Buy Best Products From Us!</h1>
+            </div>                
+    </div>
+
+<form name="details" id="details">
+
+    <div class="product-container">
+
+        <div class="box">
+            <img src="Logo/product1.jpg" alt="product1" class="product-image">
+            <div class="product-content">
+                <h2 class="product-name">Electric Guitar</h2>
+                <span class="price">$599.00</span>
+                <button type="button" class="addCart-btn">ADD TO CART</button>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="Logo/product2.jpg" alt="product2" class="product-image">
+            <div class="product-content">
+                <h2 class="product-name">Box Guitar</h2>
+                <span class="price">$649.00</span>
+                <button type="button" class="addCart-btn">ADD TO CART</button>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="Logo/product3.jpg" alt="product3" class="product-image">
+            <div class="product-content">
+                <h2 class="product-name">Violin</h2>
+                <span class="price">$359.00</span>
+                <button type="button" class="addCart-btn">ADD TO CART</button>
+            </div>
+        </div>
+
+
+
+        <div class="details-form"> 
+            <h1>Your Details</h1>
+            <div id="labels">
+                <label for="customerName">Name</label>
+                <br>
+                <input type="text" name="name" id="customerName"> 
+                <br>
+
+                <label for="customerEmail">Email</label>
+                <br>
+                <input type="email" name="email" id="customerEmail">
+                <br>
+
+                <div id="toCart">
+                    <a href="#checkCart">SEE YOUR CART</a>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+
+
+    <div id="cart">
+        <table>
+
+            <thead>
+                <tr>
+                    <td id="checkCart">Item</td>
+                    <td></td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                    <td></td>
+                </tr>
+            </thead>
+
+            <tbody class="table-body">
+            </tbody>  
+
+        </table>
+    </div>
+
+
+
+    <div id="bill">
+        <table>
+            <tr>
+                <th>TOTAL</th>
+                <td class="total-bill">$0</td>
+            </tr>
+        </table>
+
+        <button type="submit" class="purchase-btn" onclick="purchase(this.form)">PROCEED TO PAY</button>
+        
+        <br><br>
+
+    </div>
+</form>
+    
+    
+
+    <div class = "footer">
+        <hr>
+        <div class = "logos"> 
+            <img src = "logo/logo1cropped.png" alt = "logo" id = "logo">
+            <img src = "Logo/facebook.png" alt = "facebook logo" id = "facebook">
+            <img src = "Logo/instagram.png" alt  = "instagram logo" id = "instagram">
+            <img src = "Logo/twitter.png" alt = "twitter logo" id = "twitter" >
+        </div>
+    
+        <div class = "meetdevs"> 
+            <p id = "FooterHeaders1">MEET THE DEVELOPER</p>
+            <ul id = "DevNames">
+                <li><a href = "pageEditor.html">PAMUDI ABEYKOON</a></li>
+            </ul>
+        </div>
+    
+        <div class = "Contact">
+            <p id = "FooterHeaders">CONTACT US</p>
+            <ul id = "ContactList">
+                <li id = "tele">TELE : 0332276549</li>
+                <li id = "email">EMAIL : products@audiolabs.com</li>
+                <li id = "location">57, Ramakrishna Road,
+                    <br>Colombo 06,<br> Sri Lanka</li>
+                </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>

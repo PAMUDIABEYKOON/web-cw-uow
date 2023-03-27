@@ -1,0 +1,201 @@
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.header img {
+    width: 100%;
+    height:60vh;
+}
+
+.header h1 {
+    top: 40vh;
+	width: 100%;
+	position: absolute;
+	color:#f9f9f9;
+	text-align: center;
+	letter-spacing: 4px;
+	font-size: 50px;
+}
+
+
+.product-container {
+    left: 20px;
+    margin-top: 100px;
+	width: 100%;
+	display: inline-flex;
+	grid-template-columns: 300px 300px 300px 300px;
+	justify-content: space-evenly;
+} 
+
+.box {
+	width: 250px;
+	height: 350px;
+	position: relative;
+	background-color: #f0f0f0;
+	padding-bottom: 40px;	
+}
+
+.box img {
+	margin: 10px;
+	width: 230px;
+	height: auto;
+}
+
+.product-content {
+	text-align: center;
+}
+
+.product-content span {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.addCart-btn {
+	width: 250px;
+	padding: 12px 20px;
+	border: none;
+	background-color: #468fa1;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.addCart-btn:hover {
+	background-color: #171427;
+	color: #ffffff;
+	border:solid ;
+	transition: 0.4s;
+}
+
+.details-form {
+	border-radius: 5px;
+	width: 340px;
+	height: auto;
+	padding: 10px;
+	background: black;
+	color: #f9f9f9;
+}
+
+.details-form h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#labels {
+	padding: 20px;
+	margin: 20px;
+}
+
+#customerName, #customerEmail {
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#toCart {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#toCart a {
+	font-size: 18px;
+	padding: 15px;
+	color: #171427;
+	text-decoration: none;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+
+
+#cart table {
+	margin-left: auto;
+  	margin-right: auto;
+	width: 90%;
+	border-collapse: collapse;
+	margin-top: 100px;
+}
+
+#cart table img {
+	width: 60px;
+	height: 60px;
+}
+
+#cart table thead {
+	text-align: left;
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+	padding: 20px;
+}
+
+#cart table thead td {
+	padding: 15px;
+	font-weight: 700;
+}
+
+#cart table tbody td {
+	padding: 15px;
+	text-align: left;
+}
+
+.quantity {
+	width: 40px;
+	text-align: center;
+}
+
+.remove-btn {
+	font-size: 15px;
+	background-color: transparent;
+	border: none;
+	text-decoration: none;
+	color: #1dafb9;
+}
+
+.remove-btn:hover {
+	color:#3290c7
+}
+
+
+
+#bill table {
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 20%;
+	margin-top: 100px;
+	padding: 20px;
+	color: #171427;
+	font-size: 24px;
+}
+
+#bill button {
+	border-radius: 15px;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 20%;
+	background-color: #468fa1;
+	margin-top: 20px;
+	color: #f9f9f9;
+	padding: 20px;
+	cursor: pointer;
+	font-size: large;
+	border: none;
+}
+
+#bill button:hover {
+	background-color: #171427;
+	border: none;
+	transition: 0.4s;
+}
+
+
+
+.meetdevs a {
+	text-decoration: none;
+	color: black;
+}

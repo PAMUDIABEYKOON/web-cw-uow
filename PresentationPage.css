@@ -1,0 +1,62 @@
+.background-cover {
+	width: 100%;
+	height: 800px;
+	background-size: contain;
+	background-position: center;
+}
+ .background-cover img {
+	width:100%;
+	height: 800px;
+ }
+
+.content {
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	color: rgb(255, 255, 255);
+}
+.content span {
+	display: block;
+}
+.topic {
+	text-align: center;
+	font-size: 100px;
+	margin: 40px;
+	letter-spacing: 4px;
+	color: white;
+	animation: text 2s 1;
+}
+
+.editors {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+	letter-spacing: 4px;
+}
+
+@keyframes text {
+	0%{
+		color:black;
+		margin-bottom: -40px;
+	}
+}
+
+.bottom-content {
+	position: absolute;
+	display: flex;
+	left: 41%;
+}
+
+.logotext {
+	margin-top: 132px;
+	color: aliceblue;
+}
+.logoPresPage {
+	margin-top: 33px;
+	width: 200px;
+	height: 200px;
+}
+.meetdevs a {
+	text-decoration: none;
+	color: black;
+}

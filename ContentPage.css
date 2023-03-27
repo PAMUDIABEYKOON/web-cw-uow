@@ -1,0 +1,347 @@
+h4 {
+    
+    font-size: 30px;   
+    text-align: center;
+}
+
+.intro {
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: #044549
+}
+
+.historytopic {
+    font-size: 30px;
+    text-align: center;
+}
+
+.historypara {
+    text-align: justify;
+    margin: 4%;
+    font-size: 19px;
+}
+
+.ContentIntro {
+    padding: 30px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+
+
+/* INSTRUMENTS */
+.instrumentsTopic {
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #044549;
+}
+
+.container {
+	position: relative;
+	left: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box {
+	position: relative;
+	width: 500px;
+	padding: 40px;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	border-radius: 15px;
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: left;
+}
+
+.type {
+	left: 200px;
+	position: relative;
+	width: 300px;
+	height: 50px;
+	color: #fff;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	font-size: 20px;
+	font-weight: 500;
+	transition: 1s;
+}
+
+.box p {
+	margin-top: 25px;
+}
+
+.type {
+	box-shadow: 0 0 0 0 #282c2c;
+	background: #282c2c;
+}
+
+.box:hover .type {
+	box-shadow: 0 0 0 400px #282c2c;
+}
+
+.content {
+	position: relative;
+	transition: 0.5s;
+}
+
+.box:hover .content {
+	color: rgb(255, 255, 255);
+}
+
+
+
+/* COMPOSERS */
+.composersTopic {
+    padding: 0px;
+    font-size: 50px;
+    text-align: center;
+    color: #044549;
+}
+
+/* For image containers */
+.composer1 {
+    transition: 1s;
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 50px;
+    top: 770px;
+    background: #C4C4C4;
+    border-radius: 18px;  
+}
+
+.composer2 {
+    position: absolute;
+    width: 280px;
+    height: 290px;
+    left: 397px;
+    top: 770px;
+    background: #C4C4C4;
+    border-radius: 18px;
+}
+
+.composer3 {
+    position: absolute;
+    width: 280px;
+    height: 290px;
+    left: 741px;
+    top: 770px;
+    background: #C4C4C4;
+    border-radius: 18px;
+}
+
+.composer4 {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 1068px;
+    top: 770px;
+    background: #C4C4C4;
+    border-radius: 18px;
+}
+
+/* For images of the composers */
+#composer1photo {
+    width: 230px;
+    height: 250px;
+    left: 50px;
+    top: 390px;
+    padding : 20px;
+    background: #C4C4C4;
+    border-radius: 18px;
+}
+
+#composer2photo {
+    width: 220px;
+    height: 250px;
+    left: 397px;
+    top: 390px;
+    padding : 20px;
+    background: #C4C4C4;
+    border-radius: 18px;
+}
+
+#composer3photo {
+    width: 220px;
+    height: 250px;
+    left: 741px;
+    top: 390px;
+    padding : 20px;
+    background: #C4C4C4;
+    border-radius: 18px;
+}
+
+#composer4photo {
+    width: 230px;
+    height: 250px;
+    left: 1088px;
+    top: 390px;
+    padding : 20px;
+    background: #C4C4C4;
+    border-radius: 18px;
+}
+
+/* Hover with fade in effect */
+.hide {
+    opacity: 0;
+    transition: 1s;
+    font-size: 19px;
+    padding: 20px;
+    text-align: center;    
+}
+
+.composer1:hover .hide {
+    opacity: 1;
+    display:block;
+    color:rgb(0, 0, 0);
+}
+
+.composer2:hover .hide {
+    opacity: 1;
+    display:block;
+    color:rgb(0, 0, 0);
+}
+
+.composer3:hover .hide {
+    opacity: 1;
+    display:block;
+    color:rgb(0, 0, 0);
+}
+
+.composer4:hover .hide {
+    opacity: 1;
+    display:block;
+    color:rgb(0, 0, 0);
+}
+
+.footerMemberPage {
+    position: absolute;
+    width : 100%;
+    height : 285px;
+    background-color: rgb(255, 255, 255);
+    bottom:-900px;
+}
+
+
+
+/*Gallery*/
+#gallery_header {
+    font-size: 144px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.gallery_header_element {
+    position:absolute;
+    margin:auto;
+    width:1532px;
+    height : 400px;
+    border:2px solid black;
+}
+
+.gallery_body {
+    position:relative;
+    top:400px;
+    width: 1532px; 
+}
+
+.preview {
+    margin:auto;
+    width :60%;
+    height :550px;
+    border: 2px solid black;
+}
+
+.images {
+    height: 300px;
+    width:980px;
+    position: relative;
+    top:50px;
+    left:288px;
+}
+
+.img1 {
+    position: absolute;
+    top:0px;
+    width :200px;
+    height:200px;
+    border:2px solid black;
+}
+
+.img2 {
+    position: absolute;
+    top:0;
+    left:250px;
+    width :200px;
+    height:200px;
+    border:2px solid black;
+}
+
+.img3 {
+    position:absolute;
+    top:0;
+    left: 500px;
+    width :200px;
+    height:200px;
+    border:2px solid black;
+}
+
+.img4 {
+    position:absolute;
+    top:0;
+    left:750px;
+    width :200px;
+    height:200px;
+    border:2px solid black;
+}
+
+#img_pitch {
+    float:left;
+    width : 300px;
+}
+
+#img_loudness {
+    position:relative;
+    clear:left;
+    float:left;
+    width:300px;
+    top:50px;
+}
+
+#cont_loudness {
+    position:relative;
+    top:180px;
+}
+
+#img_timbre {
+    width:300px;
+    clear:left;
+    float: left;
+    position:relative;
+    top:100px;
+}
+
+#cont_timbre {
+    position:relative;
+    top:330px;
+}
+
+#cont_header {
+    text-align: center;
+    color: #044549;
+}
+
+a { 
+    color: #000000;
+    text-decoration: none;
+}
